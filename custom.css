@@ -1,0 +1,99 @@
+.head {
+    background-color: rgb(243,173,168);
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem; 
+}
+
+h1, h2, h3{
+    font-family: "Signpainter";
+    font-size: 60px;
+}
+h2 {
+    font-size: 45px;
+}
+h3 {
+    font-size: 30px;
+}
+body {
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    font-size: 17px;
+}
+.center {
+
+}
+
+button {
+    border-radius: .25em;
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-decoration: none;
+    background-color:    rgb(243,173,168);
+    border-bottom-color: rgb(243,173,168);  
+    font-family: "Signpainter";
+    font-size:30px;
+    color: black;
+}   
+button:hover {
+    background-color:    rgb(243,173,168);
+    border-bottom-color: black;
+    text-decoration: none;
+}
+button:visited,
+button:active {
+    background-color:    rgb(243,173,168);
+    border-bottom-color: rgb(243,173,168);
+}
+
+.prijs{
+    font-family: bold;
+    text-align: center;
+}
+.playlist1 {
+    background-color: rgba(164,217,236,0.4);
+    padding: 1rem;
+}
+.playlist2 {
+    background-color: rgba(207,119,71,0.25);
+    padding: 1rem;
+}
+.playlist3 {
+    background-color: rgba(38,76,29,0.25);
+    padding: 1rem;
+}
+
+.footer{
+background-color: rgb(243,173,168);
+color: white;
+padding-top: 1rem;
+}
+
+.winkelmand{
+    max-width: 60px;
+    
+}
+
+.home{
+
+}
+.media {
+    max-width: 40px;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
