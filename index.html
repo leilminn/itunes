@@ -13,20 +13,24 @@
 </head>
 <body>
     <!-- head -->
-    <div class="container">
-        <div class="row head">
-            <div class="col-10">
-                <h1>Albuned</h1>                
-            </div>
-            <div class="col-2">
-                <a href="inkopen.html">
-                    <img src="images\winkelmand.png" alt="Winkelmand" class="img-fluid winkelmand"> 
-                </a>               
+    <div class="container-fluid head">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 albuned">
+                    <h1>Albuned</h1>                
+                </div>
+                <div class="col-2">
+                    <a href="inkopen.html">
+                        <img src="images\winkelmand.png" alt="Winkelmand" class="img-fluid winkelmand"> 
+                    </a>               
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container">
     <!-- begin textbox 1 -->
         <div class="row">
-            <div class="col-8">
+            <div class="col-11 col-sm-8 col-lg-6">
                 <h2>Over ons</h2>
                 <p>Albuned is een webshope waar je de beste Nederlandstalige artiesten met hun album kan terug vinden en kopen.</p>
             </div>
@@ -35,164 +39,165 @@
 
     <!-- begin textbox 2 -->
         <div class="row">
-            <div class="col-6">        
+            <div class="col-12">        
                 <h2>Onze albums</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-6 col-sm-6 col-lg-6">
+            <div class="col-12 col-sm-6 col-lg-4">
                 <a class="btn btn-primary" data-toggle="collapse" href="#liefdevoormuziek" aria-expanded="false" aria-controls="collapseExample">
                     <img src="images\liefdevoormuziek.jpg" alt="Liefde voor muziek" class="img-fluid">
                 </a>
-                <div class="collapse" id="liefdevoormuziek">
-                <div class="card card-body">
-                    <h3>Liefde voor muziek	   26 mei 2017</h3>
-                    <p>
-                        Liefde Voor Muziek 3 is een verzamelalbum met de beste hits en meest ontroerende nummers uit de tv-show van het derde seizoen. <br>
-                        Opnieuw steken zeven muzikale iconen elkaars nummers in een nieuw jasje. Clouseau, Natalia, Bart Peeters, Josje, Gers Pardoel, Lady Linn en Isabelle A treden uit hun comfortzone en laten zich van een kant zien die ze nog niet vaak toonden.<br>
-                        Elke week komt één van de artiesten aan bod, en tijdens die aflevering worden de nummers uit zijn/haar muzikale carrière onder handen genomen door de anderen, wat soms leidt tot oplaaiende emoties.
-                    </p>
-                <div class="playlist1">
-                    <h3>Playlist</h3>
-                    <ol>
-                        <li>Clouseau - Helemaal Alleen</li>
-                        <li>Natalia - You’ve Got A Friend</li>
-                        <li>Gers Pardoel - Boeng</li>
-                        <li>Lady Linn - Oya-lele</li>
-                        <li>Isabelle A - Lowietse</li>
-                        <li>Bart Peeters - Blank Of Zwart</li>
-                        <li>Josje - Bagagedrager</li>
-                        <li>Natalia - How I Danced</li>
-                        <li>Clouseau - Langzaam</li>
-                        <li>Isabelle A - I’ve Only Begun To Fight</li>
-                        <li>Lady Linn - In My Blood</li>
-                        <li>Gers Pardoel - Helemaal Alleen</li>
-                        <li>Bart Peeters - Tele-romeo</li>
-                        <li>Josje - Ik Laat Je Nooit Meer Gaan</li>
-                        <li>Clouseau - Alles Voor Mij</li>
-                        <li>Lady Linn - Verlangen</li>
-                        <li>Isabelle A - Een Mooi Verhaal</li>
-                        <li>Bart Peeters - Nobelprijs</li>
-                        <li>Natalia - Sing Your Heart Out</li>
-                        <li>Gers Pardoel - Anne</li>
-                        <li>Josje - Feeling Me</li>
-                    </ol>
-                </div>
-                </div>
-                </div>  
+                <p class="prijs">€ 18<br>
+                    <button type="button" class="btn btn-outline-danger" onclick="alert('Uw album: Liefde voor muziek ligt in uw winkelmand.')">Nu kopen</button>
+                </p>
+                    <div class="collapse" id="liefdevoormuziek">
+                        <div class="card card-body">                
+                            <h3>Liefde voor muziek</h3>
+                            <h4>26 mei 2017</h4>
+                                <p>
+                                    Liefde Voor Muziek 3 is een verzamelalbum met de beste hits en meest ontroerende nummers uit de tv-show van het derde seizoen. <br>
+                                    Opnieuw steken zeven muzikale iconen elkaars nummers in een nieuw jasje. Clouseau, Natalia, Bart Peeters, Josje, Gers Pardoel, Lady Linn en Isabelle A treden uit hun comfortzone en laten zich van een kant zien die ze nog niet vaak toonden.<br>
+                                    Elke week komt één van de artiesten aan bod, en tijdens die aflevering worden de nummers uit zijn/haar muzikale carrière onder handen genomen door de anderen, wat soms leidt tot oplaaiende emoties.
+                                </p>
+                        <div class="playlist1">
+                            <h3>Playlist</h3>
+                            <ol class="opsomming">
+                                <li>Clouseau - Helemaal Alleen</li>
+                                <li>Natalia - You’ve Got A Friend</li>
+                                <li>Gers Pardoel - Boeng</li>
+                                <li>Lady Linn - Oya-lele</li>
+                                <li>Isabelle A - Lowietse</li>
+                                <li>Bart Peeters - Blank Of Zwart</li>
+                                <li>Josje - Bagagedrager</li>
+                                <li>Natalia - How I Danced</li>
+                                <li>Clouseau - Langzaam</li>
+                                <li>Isabelle A - I’ve Only Begun To Fight</li>
+                                <li>Lady Linn - In My Blood</li>
+                                <li>Gers Pardoel - Helemaal Alleen</li>
+                                <li>Bart Peeters - Tele-romeo</li>
+                                <li>Josje - Ik Laat Je Nooit Meer Gaan</li>
+                                <li>Clouseau - Alles Voor Mij</li>
+                                <li>Lady Linn - Verlangen</li>
+                                <li>Isabelle A - Een Mooi Verhaal</li>
+                                <li>Bart Peeters - Nobelprijs</li>
+                                <li>Natalia - Sing Your Heart Out</li>
+                                <li>Gers Pardoel - Anne</li>
+                                <li>Josje - Feeling Me</li>
+                            </ol>
+                        </div>
+                        </div>
+                    </div>  
             </div>
-            <div class="col-6 col-sm-6 col-lg-6">                                
-                <p class="prijs">€ 18</p>
-                <button class="center">Nu kopen</button>  
-            </div>
-            <div class="col-6 col-sm-6 col-lg-6">
+           
+            <div class="col-12 col-sm-6 col-lg-4">
                 <a class="btn btn-primary" data-toggle="collapse" href="#slaaptekort" aria-expanded="false" aria-controls="collapseExample">
                     <img src="images\slaaptekort.jpg" alt="Slaaptekort" class="img-fluid">
                 </a>
-                <div class="collapse" id="slaaptekort">
-                <div class="card card-body">
-                    <h3>Slaaptekort, Boef	  31 maart 2017</h3>
-                        <p>
-                            Na lang wachten is het debuutalbum van Boef er dan eindelijk: Slaaptekort is een nieuwe start waar Boef hard voor heeft gewerkt. De 24-jarige rapper en vlogger heeft zich in korte tijd onmisbaar gemaakt binnen de Nederlandse rapscene. In 2015 drukte hij dan ook definitief zijn stempel met zijn legendarische 101Barz-sessie. Kort daarna kwam hij met EP Gewoon Boef, onder andere bekend van tracks als Lauw en Hosselen. 
-                            “Breng het beeld van de straat daarom haten ze mij, maar stiekem zijn ze bang want ik heb aardig bereik.
-                            Ik had doelen voor ogen en heb die aardig bereikt, maar ik was wel gemeen heb ze niet aardig bereikt.” 
-                            Boef - Range Sessie (album intro)
-                        </p>
-                <div class="playlist2">
-                    <h3>Playlist</h3>
-                        <ol>
-                            <li>Range Sessie (album intro)</li>
-                            <li>Slapend Rijk feat</li>
-                            <li>Werken</li>
-                            <li>Ik ga weg feat</li>
-                            <li>Haliba</li>
-                            <li>Kangoeroe</li>
-                            <li>Salam feat</li>
-                            <li>Beckham</li>
-                            <li>Speciaal feat</li>
-                            <li>Kopzorgen</li>
-                            <li>Aslan</li>
-                            <li>Zeg mij</li>
-                            <li>Wejooh feat</li>
-                            <li>Cacaine</li>
-                            <li>Fetty Wap feat</li>
-                            <li>Slecht blijft</li>
-                        </ol>
-                </div>
-                </div>
-                </div>                 
+                <p class="prijs">€ 15<br>
+                    <button type="button" class="btn btn-outline-danger" onclick="alert('Uw album: Slaaptekort ligt in uw winkelmand.')">Nu kopen</button>
+                </p>
+                    <div class="collapse" id="slaaptekort">
+                        <div class="card card-body">
+                            <h3>Slaaptekort, Boef</h3>
+                            <h4>31 maart 2017</h4>
+                                <p>
+                                    Na lang wachten is het debuutalbum van Boef er dan eindelijk: Slaaptekort is een nieuwe start waar Boef hard voor heeft gewerkt. De 24-jarige rapper en vlogger heeft zich in korte tijd onmisbaar gemaakt binnen de Nederlandse rapscene. In 2015 drukte hij dan ook definitief zijn stempel met zijn legendarische 101Barz-sessie. Kort daarna kwam hij met EP Gewoon Boef, onder andere bekend van tracks als Lauw en Hosselen. 
+                                    “Breng het beeld van de straat daarom haten ze mij, maar stiekem zijn ze bang want ik heb aardig bereik.
+                                    Ik had doelen voor ogen en heb die aardig bereikt, maar ik was wel gemeen heb ze niet aardig bereikt.” 
+                                    Boef - Range Sessie (album intro)
+                                </p>
+                        <div class="playlist2">
+                            <h3>Playlist</h3>
+                            <ol class="opsomming">
+                                <li>Range Sessie (album intro)</li>
+                                <li>Slapend Rijk feat</li>
+                                <li>Werken</li>
+                                <li>Ik ga weg feat</li>
+                                <li>Haliba</li>
+                                <li>Kangoeroe</li>
+                                <li>Salam feat</li>
+                                <li>Beckham</li>
+                                <li>Speciaal feat</li>
+                                <li>Kopzorgen</li>
+                                <li>Aslan</li>
+                                <li>Zeg mij</li>
+                                <li>Wejooh feat</li>
+                                <li>Cacaine</li>
+                                <li>Fetty Wap feat</li>
+                                <li>Slecht blijft</li>
+                            </ol>
+                        </div>
+                        </div>
+                    </div>                 
             </div>
-            <div class="col-6 col-sm-6 col-lg-6">
-                <p class="prijs">€ 15</p>
-                <button>Nu kopen</button>
-            </div>
-            <div class="col-6 col-sm-6 col-lg-6">
-                    <a class="btn btn-primary" data-toggle="collapse" href="#speeltijd" aria-expanded="false" aria-controls="collapseExample">
-                        <img src="images\speeltijd.jpg" alt="Speeltijd" class="img-fluid">    
-                    </a>
-                <div class="collapse" id="speeltijd">
-                <div class="card card-body">
-                    <h3>Speeltijd, Niels Destadsbader   21 oktober 2016</h3>
-                        <p>
-                            Niels startte zijn carrière als acteur, namelijk als ‘Suske’ in de Suske & Wiske musical, en was ook een tijdje Ketnet-wrapper. Maar al snel kwam toch de muzikale microbe in hem naar boven… 
-                            In het programma ‘Steracteur Sterartiest’ in 2009 bereikt Niels de finale en krijgt hij de smaak als popartiest definitief te pakken.
-                            De voorbije jaren brengt hij verschillende singles uit, maar pas in 2015 scoort hij zijn eerste nummer 1-hit. Niels staat bovenaan de Vlaamse Ultratop 50 met ‘Dansen’. Ook zijn volgende single ‘Hey Pa’ komt op nummer 1 terecht en was bovendien volledig te horen bij de eindgeneriek van de tweede Kampioenenfilm ‘Jubilee General’. Aan het begin van de zomer 2016 verscheen de single ‘Vandaag’ en nu is er dus zijn langverwachtte debuutalbum ‘Speeltijd’ – dat het gelijknamige nummer als nieuwe single bevat. Het album is opgedragen aan zijn overleden jeugdvriend/muzikant Robbie van Eeckhout die in 2012 om het leven kwam bij een auto-ongeval. 
-                        </p>
-                <div class="playlist3">
-                    <h3>Playlist</h3>
-                        <ol>
-                            <li>Vandaag</li>
-                            <li>Hey pa</li>
-                            <li>Sara</li>
-                            <li>De toekomst</li>                                
-                            <li>Onderweg naar jou</li>
-                            <li>Hou je me vast</li>
-                            <li>Vannacht</li>
-                            <li>Bij jou</li>
-                            <li>Speeltijd</li>
-                            <li>Vrij</li>
-                            <li>Helemaal weg van jou</li>
-                            <li>Dansen</li>
-                            <li>Het licht gaat uit</li>
-                        </ol>
-                </div>
-                </div>
-                </div>                                 
-            </div>
-            <div class="col-6 col-sm-6 col-lg-6">    
-                <p class="prijs">€ 20</p>
-                <button>Nu kopen</button>
-            </div>
-        </div>
-
-    <!-- footer -->
-    <div class="row footer">
-        <div class="col-12 home">
-            <a href="index.html">
-                <img src="images\home.png" alt="Albuned" class="img-fluid media">
-            </a>
-        </div>
-        <div class="col-2 col-sm-2 col-lg-1">
-            <a href="https://twitter.com">
-                <img src="images\twitter.png" alt="Twitter" class="img-fluid media">
-            </a>
-        </div>
-        <div class="col-2 col-sm-2 col-lg-1">
-            <a href="https://www.facebook.com">
-                <img src="images\facebook.png" alt="Facebook" class="img-fluid media">  
-            </a>
-        </div>
-        <div class="col-4 col-sm-4 col-lg-8">
-            <a href="https://www.instagram.com">
-                <img src="images\instagram.png" alt="Instagram" class="img-fluid media"> 
-            </a>
-        </div>
-        <div class="col-4 col-sm-4 col-lg-2">
-            <p>©2017 Albuned</p>
+          
+            <div class="col-12 col-sm-6 col-lg-4">
+                <a class="btn btn-primary" data-toggle="collapse" href="#speeltijd" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="images\speeltijd.jpg" alt="Speeltijd" class="img-fluid">    
+                </a>
+                <p class="prijs">€ 20<br>
+                    <button type="button" class="btn btn-outline-danger" onclick="alert('Uw album: Speeltijd ligt in uw winkelmand.')">Nu kopen</button>
+                </p>
+                    <div class="collapse" id="speeltijd">
+                        <div class="card card-body">
+                            <h3>Speeltijd, Niels Destadsbader</h3>
+                            <h4>21 oktober 2016</h4>
+                                <p>
+                                    Niels startte zijn carrière als acteur, namelijk als ‘Suske’ in de Suske & Wiske musical, en was ook een tijdje Ketnet-wrapper. Maar al snel kwam toch de muzikale microbe in hem naar boven… 
+                                    In het programma ‘Steracteur Sterartiest’ in 2009 bereikt Niels de finale en krijgt hij de smaak als popartiest definitief te pakken.
+                                    De voorbije jaren brengt hij verschillende singles uit, maar pas in 2015 scoort hij zijn eerste nummer 1-hit. Niels staat bovenaan de Vlaamse Ultratop 50 met ‘Dansen’. Ook zijn volgende single ‘Hey Pa’ komt op nummer 1 terecht en was bovendien volledig te horen bij de eindgeneriek van de tweede Kampioenenfilm ‘Jubilee General’. Aan het begin van de zomer 2016 verscheen de single ‘Vandaag’ en nu is er dus zijn langverwachtte debuutalbum ‘Speeltijd’ – dat het gelijknamige nummer als nieuwe single bevat. Het album is opgedragen aan zijn overleden jeugdvriend/muzikant Robbie van Eeckhout die in 2012 om het leven kwam bij een auto-ongeval. 
+                                </p>
+                        <div class="playlist3">
+                            <h3>Playlist</h3>
+                                <ol class="opsomming">
+                                    <li>Vandaag</li>
+                                    <li>Hey pa</li>
+                                    <li>Sara</li>
+                                    <li>De toekomst</li>                                
+                                    <li>Onderweg naar jou</li>
+                                    <li>Hou je me vast</li>
+                                    <li>Vannacht</li>
+                                    <li>Bij jou</li>
+                                    <li>Speeltijd</li>
+                                    <li>Vrij</li>
+                                    <li>Helemaal weg van jou</li>
+                                    <li>Dansen</li>
+                                    <li>Het licht gaat uit</li>
+                                </ol>
+                        </div>
+                        </div>
+                    </div>                                 
+            </div>            
         </div>
     </div>
-</div>
+    <!-- footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-lg-6 d-flex flex-row">
+                    <a href="https://twitter.com">
+                        <img src="images\twitter.png" alt="Twitter" class="img-fluid media">
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <img src="images\facebook.png" alt="Facebook" class="img-fluid  media">  
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="images\instagram.png" alt="Instagram" class="img-fluid media"> 
+                    </a>
+                </div>
+                <div class="col-6 col-sm-6 col-lg-6">
+                    <a href="index.html">
+                        <img src="images\home.png" alt="Albuned" class="img-fluid media right">
+                    </a>
+                </div>
+                <div class="col-12">
+                    <p class="right">©2017 Albuned</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--javascript-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
