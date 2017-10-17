@@ -1,7 +1,7 @@
 .head {
     background-color: rgb(243,173,168);
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 2rem; 
 }
 .opsomming{
@@ -13,17 +13,17 @@
 }
 
 h1, h2, h3, h4{
-    font-family: "Signpainter";
+    font-family: 'Fredericka the Great', cursive;
     font-size: 60px;
 }
 h2 {
-    font-size: 40px;
-}
-h3 {
     font-size: 30px;
 }
-h4{
+h3 {
     font-size: 20px;
+}
+h4{
+    font-size: 15px;
     line-height: 0.75rem;
 }
 
@@ -38,8 +38,8 @@ body {
 
 .btn{
     padding: 5px 5px 5px 5px;
-    font-family: "Signpainter";
-    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 25px;
 }
 .btn-outline-danger {
     color: #fff;
