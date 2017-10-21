@@ -1,5 +1,5 @@
 .head {
-    background-color: rgb(243,173,168);
+    background-color: rgb(245,175,170);
     color: white;
     padding: 1rem;
     margin-bottom: 2rem; 
@@ -45,44 +45,44 @@ body {
     font-size: 25px;
 }
 .btn-outline-danger {
-    color: #fff;
-    background-color: rgb(243,173,168);
-    border-color: rgb(243,173,168);
+    color: white;
+    background-color: rgb(245,175,170);
+    border-color: rgb(245,175,170);
 }
 .btn-outline-danger.active {
-    color: #fff;
-    background-color: rgb(243,173,168);
-    border-color: rgb(243,173,168);
+    color: white;
+    background-color: rgb(245,175,170);
+    border-color: rgb(245,175,170);
 }
 .btn-outline-danger:hover {
-    color: rgb(243,173,168);
+    color: rgb(245,175,170);
     background-color: transparent;
     background-image: none;
-    border-color: rgb(243,173,168);
+    border-color: rgb(245,175,170);
 }
 .btn-primary{
     background: none;
     border: none;
 }
 .btn-primary:hover {
-    background-color: rgb(243,173,168);
+    background-color: rgb(245,175,170);
 }
 
 .playlist1 {
-    background-color: rgba(164,217,236,0.4);
+    background-color: rgba(165,215,235,0.4);
     padding: 1rem;
 }
 .playlist2 {
-    background-color: rgba(207,119,71,0.25);
+    background-color: rgba(205,120,70,0.25);
     padding: 1rem;
 }
 .playlist3 {
-    background-color: rgba(38,76,29,0.25);
+    background-color: rgba(40,75,30,0.25);
     padding: 1rem;
 }
 
 .footer{
-background-color: rgb(243,173,168);
+background-color: rgb(245,175,170);
 color: white;
 padding-top: 0.5rem;
 }
